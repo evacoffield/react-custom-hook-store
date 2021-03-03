@@ -11,7 +11,7 @@ const App = props => {
       <Navigation />
       <main>
         <Route path="/" component={ProductsPage} exact />
-        <Route path="/favorites" component={FavoritesPage} />
+        <Route path="/favourites" component={FavoritesPage} />
       </main>
     </React.Fragment>
   );

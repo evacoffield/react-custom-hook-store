@@ -22,7 +22,7 @@ const ProductItem = React.memo(props => {
           className={!props.isFav ? 'button-outline' : ''}
           onClick={toggleFavHandler}
         >
-          {props.isFav ? 'Un-Favorite' : 'Favorite'}
+          {props.isFav ? 'Un-Favourite' : 'Favourite'}
         </button>
       </div>
     </Card>
